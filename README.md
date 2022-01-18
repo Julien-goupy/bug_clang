@@ -23,6 +23,11 @@ https://github.com/llvm/llvm-project/issues/53264
 # Bug description
 Template selection does not work if 2 structs have the same name in different .cpp
 
+The compiler will select the struct in the first file encountered. 
+
+If you change the order in the makefile to have `transaltion_unit_2.o` before `transaltion_unit_1.o`, both `print_t*` functions will print 32.
+
+
 
 
 ### Reproductible with:
