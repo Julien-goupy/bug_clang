@@ -1,5 +1,6 @@
 # bug_clang
 Small repo to showcase a bug, most likely in the class from template lookup. (Linux x86, clang++12)
+https://github.com/llvm/llvm-project/issues/53264
 
 # Compiler:
 - Ubuntu clang version 12.0.1-++20211102090516+fed41342a82f-1~exp1~20211102211019.11
